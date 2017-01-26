@@ -5,7 +5,7 @@ email: fitnesstreeindia@gmail.com
 brand: Fitness Tree
 headline: A holistic fitness studio that helps individuals attain the greatest gift of all -- that of good health.
 description: > # this means to ignore newlines until "baseurl:"
-  New Site
+  Official Site
 baseurl: "www.fitnesstree.in" # the subpath of your site, e.g. /blog
 url: "http://fitnesstree.in" # the base hostname & protocol for your site
 copyright: 2017 Fitness Tree. All Rights Reserved.
@@ -17,7 +17,7 @@ markdown: kramdown
 snapwidget: 247552
 
 # Contacts
-email: fitnesstree@gmail.com
+email: fitnesstreeindia@gmail.com
 phone: +91-9871366691
 
 # Tracking
