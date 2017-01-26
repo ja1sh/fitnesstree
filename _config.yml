@@ -1,7 +1,7 @@
 # Site settings
 # in the templates available like {{ site.myvariable }}.
 title: Welcome to Fitness Tree.
-email: fitnesstree@gmail.com
+email: fitnesstreeindia@gmail.com
 brand: Fitness Tree
 headline: A holistic fitness studio that helps individuals attain the greatest gift of all -- that of good health.
 description: > # this means to ignore newlines until "baseurl:"
