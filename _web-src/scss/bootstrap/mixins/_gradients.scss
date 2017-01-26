@@ -24,12 +24,12 @@
   background-repeat: repeat-x;
   background-image: linear-gradient($deg, $start-color, $end-color);
 }
-@mixin gradient-horizontal-three-colors($start-color: #00b3ee, $mid-color: #7a43b6, $color-stop: 50%, $end-color: #c3325f) {
+@mixin gradient-horizontal-three-colors($start-color: #2ecc71, $mid-color: #27ae60, $color-stop: 50%, $end-color: #27ae60) {
   background-image: linear-gradient(to right, $start-color, $mid-color $color-stop, $end-color);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start-color)}', endColorstr='#{ie-hex-str($end-color)}', GradientType=1); // IE9 gets no color-stop at all for proper fallback
 }
-@mixin gradient-vertical-three-colors($start-color: #00b3ee, $mid-color: #7a43b6, $color-stop: 50%, $end-color: #c3325f) {
+@mixin gradient-vertical-three-colors($start-color: #2ecc71, $mid-color: #2ecc71, $color-stop: 50%, $end-color: #27ae60) {
   background-image: linear-gradient($start-color, $mid-color $color-stop, $end-color);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start-color)}', endColorstr='#{ie-hex-str($end-color)}', GradientType=0); // IE9 gets no color-stop at all for proper fallback
