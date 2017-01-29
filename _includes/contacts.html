@@ -16,16 +16,15 @@
                     {{ site.phone }}
                 </a>
             </div>
-			<div class="col-md-6">
+			<div class="col-md-6 col-sm-12">
 				
-				<p>or drop in at 301, Tagore Park Extn. Delhi-110009, INDIA</p>
+				<p>OR DROP IN AT 301, TAGORE PARK EXTN. DELHI-110009, INDIA</p>
 			</div>
-			<div class="col-md-6">
-                
-				
+			<div class="col-md-6 col-sm-12">
+             				
 				<script>
      				 function initMap() {
-        				var uluru = {lat: 28.704, lng: 77.195};
+        				var uluru = {lat: -25.363, lng: 131.044};
         				var map = new google.maps.Map(document.getElementById('map'), {
           					zoom: 4,
           					center: uluru
@@ -35,7 +34,12 @@
           					map: map
       						});
       									}
-    			</script>				
+    			</script>
+    
+				<script async defer
+    				src="https://maps.googleapis.com/maps/api/js?callback=myMap">
+    				</script>
+				
 			</div>
         </div>
     </div>
