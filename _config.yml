@@ -6,9 +6,9 @@ brand: Fitness Tree
 headline: A holistic fitness studio that helps individuals attain the greatest gift of all -- that of good health.
 description: > # this means to ignore newlines until "baseurl:"
   Official Site
-baseurl: "www.fitnesstree.in" # the subpath of your site, e.g. /blog
-url: "http://fitnesstree.in" # the base hostname & protocol for your site
-copyright: 2017 Fitness Tree. All Rights Reserved.
+baseurl: "www.fitnesstree.in"
+url: "http://fitnesstree.in"
+copyright: 2018 Fitness Tree. All Rights Reserved.
 
 # Build settings
 markdown: kramdown
